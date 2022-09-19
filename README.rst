@@ -25,15 +25,15 @@ Custom Screen Resolution
 Create custom resolution base on screen size, dpi and zoom level.
 
 I find myself to be comfortable with screen DPI between 100 to 140.
-It also depends to the distance between display and my eys.
+It also depends to the distance between display and my eyes.
 Plus the font size and sharpness of font.
 
 High DPI might be usefull for graphic software
-but it has issue with remote desktop and older software.
+but it has issues with remote desktop and older software.
 Also when you have multiple displays with different DPI.
 
-This software allows findout best DPI that can solve the problem.
-It can also can suggest same DPI at higher scaling level.
+This software allows you to find out the best DPI that can solve these problems.
+It can also suggest the same DPI at higher scaling level.
 For example a 14 inch display with resolution of 2560x1440 has a DPI equal to 209.
 
 dpi 2560 1440 14
@@ -43,22 +43,22 @@ A quick solution is to set the resolution to 1280x720 because the DPI of 100.5 f
 dpi 1280 720 14
 DPI:    104.90
 
-Unfortunately the output become blury because LCD disply only can provide sharp display at native resolution.
+Unfortunately, the output becomes blury because an LCD disply can only provide sharp images at native resolution.
 This issue can be solved by creating a custom resolution that is integer scaled by 2.
 
-Here is an example how you can calculate it
+Here is an example how you can calculate it:
 2560 1440 14 --zoom 2
 DPI:    104.90
 
-As you see now we can have a lower DPI resolution at higer native LCD resolution that is integer scaled by 2.
-This give you best of both worlds. Sharp text with lower DPI.
+As you see, we can have a lower DPI resolution at higer native LCD resolution that is integer scaled by 2.
+This gives you the best of both worlds: sharp text with lower DPI.
 
-Note. Currently only latest Xrandr development version hub support integer scaling.
+Note: currently, only latest Xrandr development version hub support integer scaling.
 
 This way you can have both sharp pixel at native resolution while having lower DPI.
 You also can use it to have a lower resolution at your comfort DPI level.
-This can help to save power and battery life that is important for portable device.
-Lower resolution and DPI need less internet bandwidth too.
+This can help to save power and battery life that is important for portable devices.
+Lower resolution and DPI consume lower internet bandwidth too.
 This can improve remote desktop performance.
 
 
